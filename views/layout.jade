@@ -1,0 +1,33 @@
+doctype 5
+html(lang='en', ng-app='slim')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+    title= title
+
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+
+  body
+    block body
+
+    // SCRIPTS
+    script(type="text/javascript", src="/linker/js/socket.io.js")
+    script(type="text/javascript", src="/linker/js/sails.io.js")
+    script(type="text/javascript", src="/linker/js/app.js")
+    script(type="text/javascript", src="/linker/js/lib/angular.js")
+    script(type="text/javascript", src="/linker/js/lib/angular-route.js")
+    script(type="text/javascript", src="/linker/js/lib/angular-resource.js")
+    script(type="text/javascript", src="/linker/js/controllers/post.js")
+    script(type="text/javascript", src="/linker/js/services/post.js")
+    script(type="text/javascript", src="/linker/js/ng.js")
+    // SCRIPTS END
+
+    // STYLES
+    link(rel="stylesheet", href="/linker/styles/styles.css")
+    // STYLES END
+
+    // TEMPLATES
+    
+    // TEMPLATES END

@@ -1,0 +1,2 @@
+# slim
+### a Sails application
